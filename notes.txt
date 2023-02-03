@@ -1,0 +1,2 @@
+diff compares working dir and staging area
+git rm --cached to untrack a file
