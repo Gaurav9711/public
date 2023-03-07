@@ -1,2 +1,14 @@
 diff compares working dir and staging area
 git rm --cached to untrack a file
+git restore <file name> to restore/remove modifications
+git checkout -b <branch name>  to create a branch
+git checkout master  to get back to master branch
+rm -rf .git to remove repo
+git commit -a -m"Changes" to skip staging area
+git branch  gives all the branches
+git branch --merged -> already merged branches
+git branch --no-merged -> not merged branches
+
+deleting branches
+git branch -d <branch name> gives error if not merged
+git branch -v -> this will tell all the comments on different branches
